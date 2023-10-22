@@ -1,0 +1,25 @@
+{
+    "name": "maxwelltawiah/odin-care-ai",
+    "autoload": {
+        "psr-4": {
+            "Maxwelltawiah\\OdinCareAi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sikakwesi2020",
+            "email": "67636524+sikakwesi2020@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "openai-php/client": "^0.7.4",
+        "symfony/http-client": "^6.3",
+        "nyholm/psr7": "^1.8",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
